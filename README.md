@@ -17,16 +17,16 @@ The training process consists of two phases:
 The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are applied in both phases.
 
 ## Model Performances
-|Model|Test Accuracy|Size(MB)|Parameters(M)|
-|:---   | :---: |:---: |:---: |
-|MobileNetV2|79.30%|14|3.5|
-|DenseNet121|80.57%|33|8.1|
-|EfficientNetB0|82.96%|29|5.3|
-|EfficientNetV2B0|86.62%|29|7.2|
-|EfficientNetV2B1|87.65%|34|8.2|
-|EfficientNetV2B2|89.70%|42|10.2|
-|EfficientNetV2B3||59|14.5|
-|EfficientNetV2S||88|21.6|
-|ResNet50V2||98|25.6|
-|InceptionResNetV2||215|55.9|
-|ViT||346|86|
+|Model|Test Accuracy|Test Top-5 Accuracy|Size(MB)|Parameters(M)|
+|:---   | :---: |:---: |:---: |:---: |
+|MobileNetV2|79.30%|97.12%|14|3.5|
+|DenseNet121|80.57%|98.10%|33|8.1|
+|EfficientNetB0|82.96%|97.90%|29|5.3|
+|EfficientNetV2B0|86.62%|98.73%|29|7.2|
+|EfficientNetV2B1|87.65%|87.65%|34|8.2|
+|EfficientNetV2B2|89.70%|99.22%|42|10.2|
+|EfficientNetV2B3|||59|14.5|
+|EfficientNetV2S|90.43%|98.93%|88|21.6|
+|ResNet50V2|||98|25.6|
+|InceptionResNetV2|||215|55.9|
+|ViT|||346|86|
