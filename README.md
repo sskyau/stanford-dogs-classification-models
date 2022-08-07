@@ -1,5 +1,24 @@
 # Performances of Deep Learning Models on the Stanford Dogs Dataset
 
+This repository stores a collection of deep learning model training Google Colab notebooks. The models are trained on the Stanfords Dog dataset for the dog breed fine-grained classification problem.
+
+## Model Training
+The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. 
+
+The training process consists of two phases: 
+1. Feature extraction
+* All pretrained weights are frozen
+* Learning rate: 1e-2
+
+2. Fine-tuning
+* All weights in the model are unfrozen
+* Learning rate: 1e-5
+
+The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are applied in both phases.
+
+## Model Performances
 |Model|Test Accuracy|Size(MB)|Parameters(M)|
 |:---   | :---: |:---: |:---: |
 |MobileNetV2|79.30%|14|3.5|
+|DenseNet121|80.57%|33|8.1|
+|EfficientNetV2B0|86.62%|29|7.2|
