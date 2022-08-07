@@ -27,6 +27,6 @@ The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are
 |EfficientNetV2B2|89.70%|99.22%|42|10.2|
 |EfficientNetV2B3|||59|14.5|
 |EfficientNetV2S|90.43%|98.93%|88|21.6|
-|ResNet50V2|||98|25.6|
+|ResNet50V2|74.32%|94.24%|98|25.6|
 |InceptionResNetV2|||215|55.9|
 |ViT|||346|86|
