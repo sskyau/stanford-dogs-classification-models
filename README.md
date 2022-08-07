@@ -3,7 +3,7 @@
 This repository stores a collection of deep learning model training Google Colab notebooks. The models are trained on the Stanfords Dog dataset for the dog breed fine-grained classification problem.
 
 ## Model Training
-The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. 
+The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. The train-validation-test split used is 80-10-10.
 
 The training process consists of two phases: 
 1. Feature extraction
