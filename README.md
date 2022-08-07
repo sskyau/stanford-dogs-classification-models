@@ -28,7 +28,7 @@ The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are
 |EfficientNetV2B3|92.14%|99.56%|59|14.5|[Google Drive](https://drive.google.com/file/d/1-TU2kCHDXWVyuyVN7z7rOjGTwY8d7QaH/view?usp=sharing)|
 |EfficientNetV2S|90.43%|98.93%|88|21.6|[Google Drive](https://drive.google.com/file/d/106Ag7tarebY2yHpDzQq2JiiLl1JjHraa/view?usp=sharing)|
 |ResNet50V2|74.32%|94.24%|98|25.6|[Google Drive](https://drive.google.com/file/d/1-GEjKCn_teBjnt3I0RsHwG9fj2r1CMR5/view?usp=sharing)|
-|InceptionResNetV2|||215|55.9|[Google Drive]()|
+|InceptionResNetV2|86.04%|98.39%|215|55.9|[Google Drive](https://drive.google.com/file/d/1-F_0UlhV2vnchfhtoyjXtbmTbfJ_iALi/view?usp=sharing)|
 |ViT|||346|86|[Hugging Face](https://huggingface.co/skyau/dog-breed-classifier-vit)|
 
 ## Instructions for Running the Training Notebooks
