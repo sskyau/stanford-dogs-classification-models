@@ -3,7 +3,7 @@
 This repository stores a collection of deep learning model training Google Colab notebooks. The models are trained on the Stanfords Dog dataset for the dog breed fine-grained classification problem.
 
 ## Model Training
-The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. The train-validation-test split is 80-10-10.
+All models are developed on Google Colab and trained with a single GPU. The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. The train-validation-test split is 80-10-10.
 
 The training process consists of two phases: 
 ### 1. Feature extraction
@@ -31,6 +31,5 @@ The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are
 |InceptionResNetV2|||215|55.9|[Google Drive]()|
 |ViT|||346|86|[Hugging Face](https://huggingface.co/skyau/dog-breed-classifier-vit)|
 
-## Running the Training Notebooks
-All models are developed on Google Colab and trained with 1 GPU. After pip installing all required libraries, please restart the runtime once to 
-
+## Instructions for Running the Training Notebooks
+After pip installing all required libraries, the runtime has to be restarted once before importing the libraries. 
