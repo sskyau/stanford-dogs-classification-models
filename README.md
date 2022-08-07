@@ -6,11 +6,11 @@ This repository stores a collection of deep learning model training Google Colab
 The training was performed with transfer learning technique, where the model is formed by a state-of-the-art deep learning model pretrained on ImageNet with a new classification block attached. The train-validation-test split is 80-10-10.
 
 The training process consists of two phases: 
-1. Feature extraction
+### 1. Feature extraction
 * All pretrained weights are frozen
 * Learning rate: 1e-2
 
-2. Fine-tuning
+### 2. Fine-tuning
 * All weights in the model are unfrozen
 * Learning rate: 1e-5
 
