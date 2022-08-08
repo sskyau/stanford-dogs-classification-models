@@ -29,7 +29,7 @@ The Adam optimizer and an early stopping criteria with 5 epochs of tolerance are
 |EfficientNetV2S|90.43%|98.93%|88|21.6|[Keras h5](https://drive.google.com/file/d/106Ag7tarebY2yHpDzQq2JiiLl1JjHraa/view?usp=sharing)|
 |ResNet50V2|74.32%|94.24%|98|25.6|[Keras h5](https://drive.google.com/file/d/1-GEjKCn_teBjnt3I0RsHwG9fj2r1CMR5/view?usp=sharing)|
 |InceptionResNetV2|86.04%|98.39%|215|55.9|[Keras h5](https://drive.google.com/file/d/1-F_0UlhV2vnchfhtoyjXtbmTbfJ_iALi/view?usp=sharing)|
-|ViT|93.20%|99.56%|346|86|[PyTorch pt](https://drive.google.com/file/d/1-iRf_hn632MF3-TCni1Fc6dsbH9I0jhS/view?usp=sharing), [Hugging Face](https://huggingface.co/skyau/dog-breed-classifier-vit)|
+|ViT|93.20%|99.56%|330|86|[PyTorch pt](https://drive.google.com/file/d/1-iRf_hn632MF3-TCni1Fc6dsbH9I0jhS/view?usp=sharing), [Hugging Face](https://huggingface.co/skyau/dog-breed-classifier-vit)|
 
 ## Instructions for Running the Training Notebooks
 After pip installing all required libraries, the runtime has to be restarted once before importing the libraries. 
