@@ -8,7 +8,7 @@ All models are developed on Google Colab and trained with a single GPU. The trai
 The training process consists of two phases: 
 ### 1. Feature extraction
 * All pretrained weights are frozen
-* Learning rate: 1e-2
+* Learning rate: 1e-2 (1e-3 for ViT)
 
 ### 2. Fine-tuning
 * All weights in the model are unfrozen
